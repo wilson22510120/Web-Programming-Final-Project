@@ -1,0 +1,124 @@
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	background: #eee9e9;
+}
+
+.LoveLetter__container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.LoveLetter__title {
+	font-size: 2rem;
+	font-weight: 600;
+	color: #615dec;
+	margin: 0;
+	margin-top: 2rem;
+}
+
+.LoveLetter__main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+
+.playertableA {
+	position: absolute;
+	top: 500px;
+	left: 585px;
+	height: 176px; 
+	width: 250px;
+	background-color: darkcyan;
+	/* background-position:0vw ; */
+}
+
+.playertableB {
+	position: absolute; 
+	top: 285px;
+	left: 945px;
+	height: 145px; 
+	width: 209px;
+	background-color: rgb(48, 56, 56);
+	/* background-position:0vw ; */
+}
+
+.playertableC {
+	position: absolute; 
+	top: 100px;
+	left: 605px;
+	height: 145px; 
+	width: 209px;
+	background-color: rgb(70, 55, 107);
+	/* background-position:0vw ; */
+}
+
+.playertableD {
+	position: absolute; 
+	top: 285px;
+	left: 250px;
+	height: 145px; 
+	width: 209px;
+	background-color: rgb(47, 201, 47);
+	/* background-position:0vw ; */
+}
+
+.playercard {
+	top: 0px; 
+	left: 107px; 
+	width: 102px; 
+	height: 140px; 
+	/* background-image: url(&quot;https://x.boardgamearena.net/data/themereleases/170512-1002/games/loveletter/170411-1615/img/cards_small.jpg&quot;);  */
+	opacity: 1;
+	float: left;
+}
+
+.playercard {
+	/* top: 0px; 
+	left: 107px; 
+	width: 102px; 
+	height: 140px;  */
+	/* background-image: url(&quot;https://x.boardgamearena.net/data/themereleases/170512-1002/games/loveletter/170411-1615/img/cards_small.jpg&quot;);  */
+	opacity: 1;
+}
+
+.playertablename {
+	text-align: center;
+}
+
+.tablecenter {
+	position: absolute;
+	top: 260px;
+	left: 565px;
+	height: 200px; 
+	width: 300px;
+	background-color: rgb(211, 18, 18);
+}
+
+.discardpile {
+	height: 200px; 
+	width: 150px;
+	float: left;
+}
+
+.deck {
+	height: 200px; 
+	width: 150px;
+	float: left;
+}
+
+.lastplayed {
+	text-align: center;
+}
+
+.cardremaining {
+	text-align: center;
+}
